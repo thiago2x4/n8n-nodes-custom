@@ -6,7 +6,7 @@ Esse repositorio contem um node customizado do n8n, que utiliza a API Random.org
 
 ## Pré-requisitos
 
-Você precisa instalar das seguinte ferramentas para rodar esse projeto.:
+Você precisa instalar as seguinte ferramentas para rodar esse projeto:
 
 * Node.js and npm. versão minima Node 20. Você pode achar as instruções de como instalar abos usando nvm (Node Version Manager) para Linux, Mac, e WSL [here](https://github.com/nvm-sh/nvm). E para Windows, guia da Microsoft [Install NodeJS on Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
 * Docker e Docker compose. Você pode encontrar um gui de instalação para Linux (https://docs.docker.com/desktop/setup/install/linux/). Mac (https://docs.docker.com/desktop/setup/install/mac-install/). E Windows (https://docs.docker.com/desktop/setup/install/windows-install/)
