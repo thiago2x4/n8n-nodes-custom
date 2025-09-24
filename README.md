@@ -33,9 +33,10 @@ Você precisa instalar as seguinte ferramentas para rodar esse projeto:
 	docker compose up -d
 	```
 6. Abra o navegador e acesse (http://localhost:5678/).
-7. Apos acessar, e fechar as janelas do n8n que aparecerão, va na opção "start from scratch".
-8. Clicando no + no centro da tela ou a direita, busque por Random. (Sera o conector cujo o icone são duas setas que se cruzam.)
-9. Insira o valor minimo e valor maximo, ou preencha os mesmos com variaveis de nodes anteriores e clique em "execute step"(botão laranja, no canto superior direto).
-10. Seu numero verdadeiramente aleatorio sera gerado.
+7. Faça o cadastro no n8n.
+8. Apos acessar, e fechar as janelas do n8n que aparecerão, va na opção "start from scratch".
+9. Clicando no + no centro da tela ou a direita, busque por Random. (Sera o conector cujo o icone são duas setas que se cruzam.)
+10. Insira o valor minimo e valor maximo e clique em "execute step"(botão laranja, no canto superior direto).
+11. Seu numero verdadeiramente aleatorio sera gerado.
 
 Observação: Respeite a estrutura do projeto, alterar o nome da pasta/arquivos e mover pastas/arquivos para outros diretorios pode resultar no não-funcionamento do node.
