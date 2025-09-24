@@ -10,11 +10,6 @@ Você precisa instalar as seguinte ferramentas para rodar esse projeto:
 
 * Node.js and npm. versão minima Node 20. Você pode achar as instruções de como instalar ambos usando nvm (Node Version Manager) para Linux, Mac, e WSL [Aqui](https://github.com/nvm-sh/nvm). E para Windows, guia da Microsoft [Instale o NodeJS no Windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows).
 * Docker e Docker compose. Você pode encontrar um guia de instalação para [Linux](https://docs.docker.com/desktop/setup/install/linux/), [Mac](https://docs.docker.com/desktop/setup/install/mac-install/). E [Windows](https://docs.docker.com/desktop/setup/install/windows-install/).
-* Utilizando o terminal instale o n8n com:
-  ```
-  npm install n8n -g
-  ```
-* Aqui você pode encontrar um guia do n8n [configure seu ambiente de desenvolvimento](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/).
 
 ## Para rodar o projeto
 
@@ -39,4 +34,6 @@ Você precisa instalar as seguinte ferramentas para rodar esse projeto:
 10. Insira o valor minimo e valor maximo e clique em "execute step"(botão laranja, no canto superior direto).
 11. Seu numero verdadeiramente aleatorio sera gerado.
 
-Observação: Respeite a estrutura do projeto, alterar o nome da pasta/arquivos e mover pastas/arquivos para outros diretorios pode resultar no não-funcionamento do node.
+Observações: 
+1. Respeite a estrutura do projeto, alterar o nome da pasta/arquivos e mover pastas/arquivos para outros diretorios pode resultar no não-funcionamento do node.
+2. O arquivo .env por questões praticas não foi adicionado ao .gitignore. Ja foi previamente configurado, mas pode ser editado caso necessario.
