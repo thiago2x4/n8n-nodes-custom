@@ -36,7 +36,7 @@ services:
     links:
       - postgres
     volumes:
-      - C:/Users/THIAGO/OneDrive/Desktop/n8n-nodes:/home/node/.n8n/custom
+      - ./:/home/node/.n8n/custom
     depends_on:
       postgres:
         condition: service_healthy
