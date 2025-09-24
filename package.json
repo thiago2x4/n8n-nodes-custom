@@ -29,13 +29,9 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/GeradorNumero/GeradorNumero.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/GeradorNumero/GeradorNumeroAleatorio.node.js"
     ]
   },
   "devDependencies": {
