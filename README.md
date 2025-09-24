@@ -17,7 +17,7 @@ Você precisa instalar as seguinte ferramentas para rodar esse projeto:
 * Aqui você pode encontrar um guia do n8n [configure seu ambiente de desenvolvimento](https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/).
 
 ## Para rodar o projeto
-1. Na pasta raiz do projeto é necessario a criação de um arquivo .env nele você deve inserir as seguintes informações e alterar de acordo com as suas:
+1. Na pasta raiz do projeto é necessario a criação de um arquivo com o nome de .env nele você deve inserir as seguintes informações e alterar de acordo com as suas:
 	```
 	POSTGRES_USER=<seu-usuario>
 	POSTGRES_PASSWORD=<senha>
